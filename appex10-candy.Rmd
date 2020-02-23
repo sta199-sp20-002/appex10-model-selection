@@ -1,0 +1,23 @@
+---
+title: "AppEx 10: Model Selection"
+author: "Your name here"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r packages, echo=TRUE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(broom)
+library(knitr)
+library(fivethirtyeight)
+```
+
+We will be using the `candy_rankings` dataset from the `fivethirtyeight` 
+package.
+
+## Exercises:
+
+1. What variables and interactions did you choose?
+2. Perform backwards selection, making sure to show each step of the process.
+3. Provide interpretations for the slopes of your final model.
